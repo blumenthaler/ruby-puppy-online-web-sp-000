@@ -23,8 +23,8 @@ class Dog
     @@all.push(self)
   end
   
-  def name(name)
-    @name = name
+  def name
+    @name
   end
   
   def self.clear_all
